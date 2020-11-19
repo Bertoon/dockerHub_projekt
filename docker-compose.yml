@@ -1,7 +1,7 @@
 version: '3.7'
 services:
  mysql:
-  build: ./mysql/
+  build: ./
   cap_add:
       - SYS_NICE
   container_name: Full2020-086267
