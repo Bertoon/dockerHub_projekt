@@ -6,6 +6,6 @@ CREATE TABLE human (
   primary key(human_id)
     );
     
-INSERT INTO human VALUES (1,'Bartek','Borek',21);
-INSERT INTO human VALUES (2,'Bartlomiej','Boreczek',20);
-INSERT INTO human VALUES (3,'Bartosz','Borok',23);
+INSERT INTO human VALUES (1,'Kabul','Stefan',22);
+INSERT INTO human VALUES (2,'Kamil','Biernacki',25);
+INSERT INTO human VALUES (3,'Ola','Takase',13);

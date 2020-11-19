@@ -1,6 +1,5 @@
 link do githuba
 https://github.com/positivee/docker_java
-https://github.com/Bertoon/dockerHub_projekt
 link do obrazu dockerhuba jest w docker_compose
 
 Przeslylam docker-compose i folder z dockerfilem dotyczacym mysql

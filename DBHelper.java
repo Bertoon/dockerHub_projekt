@@ -3,7 +3,7 @@ import java.sql.*;
 public class DBHelper {
     // database URL
 
-    static final String DATABASE_URL = "jdbc:mysql://10.0.10.3:3306/BartlomiejB";
+    static final String DATABASE_URL = "jdbc:mysql://172.16.238.22:3306/KamilB";
     Connection connection = null;
     Statement statement = null;
     ResultSet resultSet = null;
@@ -11,7 +11,7 @@ public class DBHelper {
     public DBHelper() throws SQLException {
         // establish connection to database
         try {
-            connection = DriverManager.getConnection(DATABASE_URL, "BBorek", "BBorek");
+            connection = DriverManager.getConnection(DATABASE_URL, "KBiernacki", "KBiernacki");
 
         } catch (SQLException ex) {
             //XXX LOG

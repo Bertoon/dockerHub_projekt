@@ -9,20 +9,20 @@ public class App {
     public static void DisplayMenu() throws SQLException {
         System.out.println();
         System.out.println("Menu: ");
-        System.out.println("1. Wywietl baze");
-        System.out.println("2. Dodaj rekord");
-        System.out.println("3. Podaj id aby usunac");
-        System.out.println("4. Podaj id aby edytowac");
-        System.out.println("5. Wyjdz");
+        System.out.println("1. Pokaz baze");
+        System.out.println("2. Dodaj do bazy");
+        System.out.println("3. Podaj id czlowieka do usuniecia");
+        System.out.println("4. Podaj id czlowieka do edycji");
+        System.out.println("5. Exit");
         System.out.println();
 
-        System.out.print("Wybrana opcja: ");
+        System.out.print("Select option: ");
 
         String MENU = new Scanner(System.in).next();
         while(!(MENU.equals("1") || MENU.equals("2") || MENU.equals("3") || MENU.equals("4")|| MENU.equals("5")))
         {
-            System.out.print("Nie mozesz nacisnac tej liczby \n");
-            System.out.print("Wprowadz jeszcze raz:");
+            System.out.print("Nie ma tekiego wyboru \n");
+            System.out.print("Wybierz jeszcze raz:");
             MENU = new Scanner(System.in).next();
         }
 

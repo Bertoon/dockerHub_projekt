@@ -1,21 +1,21 @@
 version: '3.7'
 services:
  mysql:
-  build: ./
+  build: ./mysql/
   cap_add:
       - SYS_NICE
-  container_name: Full2020-086267
+  container_name: Full2020-86264
   restart: always
   environment:
-   MYSQL_DATABASE: BartlomiejB
-   MYSQL_USER: BBorek
-   MYSQL_PASSWORD: BBorek
-   MYSQL_ROOT_PASSWORD: BBorek
+   MYSQL_DATABASE: KamilB
+   MYSQL_USER: KBiernacki
+   MYSQL_PASSWORD: KBiernacki
+   MYSQL_ROOT_PASSWORD: KBiernacki
   ports:
    - 3306:3306
   networks:
    second:
-      ipv4_address: 10.0.10.3
+      ipv4_address: 172.16.238.22
 
  java:
   image: bertonn/projekt
@@ -36,4 +36,4 @@ networks:
   driver: bridge
   ipam:
    config:
-    - subnet: 10.0.10.3/24
+    - subnet: 172.16.238.0/24
