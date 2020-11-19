@@ -18,7 +18,7 @@ services:
       ipv4_address: 10.0.10.3
 
  java:
-  image: Bertoon/dockerHub_projekt
+  image: bertonn/projekt
   container_name: JavaContainer
   depends_on:
    - mysql
